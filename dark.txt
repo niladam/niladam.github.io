@@ -1,0 +1,2 @@
+# root
+export PS1='\[\e[1;30m\]\t`if [ $? = 0 ]; then echo "\[\e[32m\] ✔ "; else echo "\[\e[31m\] ✘ "; fi`\[\e[0;35m\]\u\[\e[0m\]@\h \[\e[1;34m\]\w \$\[\e[0m\] '
